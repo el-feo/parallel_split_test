@@ -9,7 +9,7 @@ Gem::Specification.new name, ParallelSplitTest::VERSION do |s|
   s.files = `git ls-files lib bin Readme.md`.split("\n")
   s.executables = ["parallel_split_test"]
   s.add_dependency "rspec-core", ">= 3.9.0"
-  s.add_dependency "parallel", ">= 0.5.13"
+  s.add_dependency "parallel", ">= 1.20.0"
   s.license = "MIT"
   s.required_ruby_version = '>= 2.2.0'
 end
